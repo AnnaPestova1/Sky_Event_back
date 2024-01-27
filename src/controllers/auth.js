@@ -40,7 +40,7 @@ const logout = async (req, res) => {
     } else {
       return res
         .status(StatusCodes.OK)
-        .json({ msg: "Logged out successfully" });
+        .json({ message: "Logged out successfully" });
     }
   });
 };
