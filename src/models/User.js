@@ -8,7 +8,11 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please provide name"],
     minlength: 3,
-    maxlength: 50
+    maxlength: 50,
+    match: [
+      /\A[0-9\p{L}\-' ]+\z/,
+      "Name must contain only letters, numbers, spaces or - and ' characters"
+    ]
   },
   email: {
     type: String,
@@ -22,7 +26,7 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String,
     required: [true, "Please provide password"],
-    minlength: 6
+    minlength: 8
   }
 });
 
