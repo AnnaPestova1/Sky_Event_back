@@ -3,10 +3,33 @@ const { StatusCodes } = require("http-status-codes");
 const { BadRequestError, NotFoundError } = require("../errors");
 
 const getAllData = async (req, res) => {
-  const data = await Data.find({ createdBy: req.user.userId }).sort(
-    "createdAt"
-  );
-  res.status(StatusCodes.OK).json({ data, count: data.length });
+  const items_per_page = 12;
+  const { page, filtering } = req.query;
+  if (!page) page = 1;
+  const skip = (page - 1) * items_per_page;
+
+  let data = await Data.find({ createdBy: req.user.userId });
+  let filteredData = await Data.find({ createdBy: req.user.userId })
+    .sort("date")
+    .skip(skip)
+    .limit(items_per_page);
+
+  if (filtering) {
+    data = await Data.find({ createdBy: req.user.userId }).where({
+      event: filtering
+    });
+    filteredData = await Data.find({ createdBy: req.user.userId })
+      .sort("date")
+      .skip(skip)
+      .limit(items_per_page)
+      .where({ event: filtering });
+  }
+  // console.log(filteredData, filtering);
+  res.status(StatusCodes.OK).json({
+    data: filteredData,
+    count: filteredData.length,
+    totalCount: Math.ceil(data.length / items_per_page)
+  });
 };
 
 const getData = async (req, res) => {

@@ -3,8 +3,11 @@ const { StatusCodes } = require("http-status-codes");
 const { BadRequestError, UnauthenticatedError } = require("../errors");
 
 const register = async (req, res) => {
-  const { email } = req.body;
-
+  const { email, password, confirmPassword } = req.body;
+  console.log(req.body);
+  if (password !== confirmPassword) {
+    throw new BadRequestError("The passwords entered do not match.");
+  }
   const existingUser = await User.findOne({ email });
   if (existingUser) {
     throw new BadRequestError("Account already exists.");
