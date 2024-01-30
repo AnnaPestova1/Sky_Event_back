@@ -18,6 +18,7 @@ const MongoDBStore = require("connect-mongodb-session")(session);
 const authRouter = require("./routes/auth");
 const dataRouter = require("./routes/data");
 const apiDataRouter = require("./routes/apiData");
+const apiNASAImg = require("./routes/apiNASAImg.js");
 
 // middleware
 const auth = require("./middleware/authMiddleware.js");
@@ -69,6 +70,7 @@ app.use(session(sessionParms));
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/data", auth, dataRouter);
 app.use("/api/v1/apiData", auth, apiDataRouter);
+app.use("/api/v1/apiImg", apiNASAImg);
 
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
