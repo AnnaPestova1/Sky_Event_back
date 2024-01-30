@@ -6,12 +6,14 @@ const {
   getCometsData,
   getSolarEclipsesData,
   getLunarEclipsesData,
-  getMeteorShowersData
-} = require("../controllers/APIdata");
+  getMeteorShowersData,
+  getNasaPictureOfTheDay
+} = require("../controllers/apiData");
 router.route("/comets/:year").get(getCometsData);
 router.route("/asteroids/:year").get(getAsteroidsData);
 router.route("/solarEclipses/:year").get(getSolarEclipsesData);
 router.route("/lunarEclipses/:year").get(getLunarEclipsesData);
 router.route("/meteorShowers/:year").get(getMeteorShowersData);
+router.route("/NASAPictureOfTheDay").get(getNasaPictureOfTheDay);
 
 module.exports = router;
