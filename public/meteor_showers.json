@@ -1,0 +1,722 @@
+[
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2024-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2024-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2024-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2024-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2024-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2024-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2024-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2024-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2024-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2024-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2024-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2024-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2024-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2025-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2025-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2025-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2025-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2025-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2025-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in both the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2025-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2025-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2025-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2025-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2025-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2025-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2025-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2026-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2026-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2026-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2026-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2026-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2026-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in both the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2026-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2026-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2026-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2026-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2026-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2026-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2026-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2027-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2027-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2027-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2027-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2027-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2027-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2027-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2027-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2027-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2027-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2027-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2027-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2027-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2028-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2028-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2028-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2028-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2028-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2028-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2028-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2028-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2028-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2028-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2028-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2028-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2028-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2029-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2029-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2029-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2029-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2029-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2029-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2029-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2029-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2029-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2029-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2029-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2029-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2029-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2030-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2030-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2030-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2030-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2030-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2030-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2030-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2030-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2030-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2030-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2030-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2030-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2030-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2031-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2031-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2031-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2031-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2031-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2031-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2031-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2031-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2031-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2031-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2031-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2031-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2031-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2032-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2032-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2032-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2032-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2032-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2032-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2032-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2032-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2032-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2032-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2032-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2032-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2032-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2033-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2033-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2033-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2033-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2033-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2033-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2033-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2033-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2033-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2033-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2033-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2033-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2033-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  },
+  {
+    "meteorShowerName": "Quadrantids",
+    "eventDate": "2034-01-03",
+    "description": "The Quadrantids is a short-lived meteor shower known for its intense, bright meteors. Observers in the northern hemisphere have the best view, and during its peak, they may see about 25 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Lyrids",
+    "eventDate": "2034-04-22",
+    "description": "The Lyrids is an annual meteor shower associated with Comet C/1861 G1 Thatcher. It is best observed in the northern hemisphere, and during its peak, observers might witness about 15 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Eta Aquarids",
+    "eventDate": "2034-05-06",
+    "description": "The Eta Aquarids is known for its fast and bright meteors, which are remnants of Halley's Comet. Best observed from the southern hemisphere, during its peak, viewers may see around 30 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Delta Aquariids",
+    "eventDate": "2034-07-29",
+    "description": "The Southern Delta Aquariids is best observed from the southern hemisphere. It produces faint meteors, and during its peak, observers might spot around 20 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Alpha Capricornids",
+    "eventDate": "2034-07-30",
+    "description": "The Alpha Capricornids is a meteor shower that produces bright, slow-moving meteors. Best observed from the southern hemisphere, it may offer around 5 meteors per hour during its peak."
+  },
+  {
+    "meteorShowerName": "Perseids",
+    "eventDate": "2034-08-12",
+    "description": "The Perseids is one of the most anticipated meteor showers, known for its fast and bright meteors. It occurs when Earth passes through the debris left behind by Comet Swift-Tuttle. During its peak on August 12-13, observers can expect to see around 60-100 meteors per hour. The Perseids meteor shower is observable in the Northern Hemisphere."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2034-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Southern Taurids",
+    "eventDate": "2034-11-05",
+    "description": "The Southern Taurids is a long-lasting meteor shower with a high percentage of fireballs. It is best observed from the southern hemisphere, and during its peak, viewers may see around 5-10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Draconids",
+    "eventDate": "2034-10-08",
+    "description": "The Draconids is a minor meteor shower associated with the comet 21P/Giacobini-Zinner. It is best observed from the northern hemisphere, and during its peak on October 8-9, observers might witness about 10 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Orionids",
+    "eventDate": "2034-10-21",
+    "description": "The Orionids is associated with Halley's Comet, and its meteors are fast and often leave persistent trails. Best observed from the northern hemisphere, expect to see about 20 meteors per hour during the peak. The Orionids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Northern Taurids",
+    "eventDate": "2034-11-11",
+    "description": "The Northern Taurids is a long-lasting shower known for producing fireballs. Best observed from the northern hemisphere, during its peak on November 11-12, viewers may see around 5 meteors per hour."
+  },
+  {
+    "meteorShowerName": "Leonids",
+    "eventDate": "2034-11-17",
+    "description": "The Leonids is known for its bright meteors and is associated with Comet Tempel-Tuttle. While the shower is variable, observers might witness around 15 meteors per hour at its peak on November 17-18. The Leonids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Geminids",
+    "eventDate": "2034-12-14",
+    "description": "The Geminids is one of the most reliable meteor showers, producing up to 120 multicolored meteors per hour at its peak on December 13-14. It is caused by debris from the asteroid 3200 Phaethon. The Geminids meteor shower is observable in both the Northern and Southern Hemispheres."
+  },
+  {
+    "meteorShowerName": "Ursids",
+    "eventDate": "2034-12-22",
+    "description": "The Ursids is a minor meteor shower associated with Comet 8P/Tuttle. Best observed from the northern hemisphere, viewers may see around 5-10 meteors per hour during its peak on December 21-22."
+  }
+]
