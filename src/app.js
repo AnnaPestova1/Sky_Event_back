@@ -3,11 +3,16 @@ require("dotenv").config();
 
 const express = require("express");
 const app = express();
-
+//extra security
 const cors = require("cors");
 const helmet = require("helmet");
 const xss = require("xss-clean");
 const rateLimiter = require("express-rate-limit");
+
+//swagger
+const swaggerUI = require("swagger-ui-express");
+const YAML = require("yamljs");
+const swaggerDocument = YAML.load("swagger.yaml");
 
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
@@ -66,6 +71,8 @@ if (app.get("env") === "production") {
 app.use(cookieParser());
 app.use(session(sessionParms));
 
+//swagger docs
+app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 //using routes
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/data", auth, dataRouter);
