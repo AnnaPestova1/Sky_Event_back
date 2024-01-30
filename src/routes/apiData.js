@@ -8,7 +8,7 @@ const {
   getLunarEclipsesData,
   getMeteorShowersData,
   getNasaPictureOfTheDay
-} = require("../controllers/APIdata");
+} = require("../controllers/apiData");
 router.route("/comets/:year").get(getCometsData);
 router.route("/asteroids/:year").get(getAsteroidsData);
 router.route("/solarEclipses/:year").get(getSolarEclipsesData);
