@@ -20,8 +20,6 @@ const authMiddleware = (req, res, next) => {
   } catch (error) {
     if (err.name === "TokenExpiredError") {
       throw new UnauthenticatedError("Authentication invalid");
-    } else {
-      throw new UnauthenticatedError("Authentication invalid");
     }
   }
 };

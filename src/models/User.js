@@ -10,7 +10,7 @@ const UserSchema = new mongoose.Schema({
     minlength: 3,
     maxlength: 50,
     match: [
-      /\A[0-9\p{L}\-' ]+\z/,
+      /^[\p{L}0-9\-' ]+$/u,
       "Name must contain only letters, numbers, spaces or - and ' characters"
     ]
   },
