@@ -39,7 +39,7 @@ const store = new MongoDBStore({
   uri: url,
   collection: "mySessions"
 });
-store.on("error", error => {
+store.on("error", (error) => {
   console.log(error);
 });
 

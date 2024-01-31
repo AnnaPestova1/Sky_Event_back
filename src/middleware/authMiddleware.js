@@ -18,7 +18,7 @@ const authMiddleware = (req, res, next) => {
     req.user = { userId: payload.userId, name: payload.name };
     next();
   } catch (error) {
-    if (err.name === "TokenExpiredError") {
+    if (error.name === "TokenExpiredError") {
       throw new UnauthenticatedError("Authentication invalid");
     }
   }

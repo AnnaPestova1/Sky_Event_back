@@ -264,7 +264,7 @@ const getSolarEclipsesData = asyncWrapper(async (req, res) => {
       throw new BadRequestError("Invalid response from API");
     }
     const data = await response.json();
-    data.eclipses_in_year.map(d => (d.image = image));
+    data.eclipses_in_year.map((d) => (d.image = image));
     console.log(data);
     res.status(StatusCodes.OK).json({ data });
   } catch (error) {
@@ -285,10 +285,10 @@ const getLunarEclipsesData = (req, res) => {
     if (!response) {
       throw new BadRequestError("Invalid response from API");
     }
-    const eclipsesByYear = response.filter(eclipse =>
+    const eclipsesByYear = response.filter((eclipse) =>
       eclipse.date.startsWith(year)
     );
-    eclipsesByYear.map(eclipse => (eclipse.image = image));
+    eclipsesByYear.map((eclipse) => (eclipse.image = image));
     console.log(eclipsesByYear);
     res.status(StatusCodes.OK).json({ eclipsesByYear });
   } catch (error) {
@@ -317,7 +317,7 @@ const getMeteorShowersData = (req, res) => {
     if (!response) {
       throw new BadRequestError("Invalid response from API");
     }
-    const showersByYear = response.filter(shower =>
+    const showersByYear = response.filter((shower) =>
       shower.eventDate.startsWith(year)
     );
     console.log("showersByYear", showersByYear.length);
@@ -325,7 +325,7 @@ const getMeteorShowersData = (req, res) => {
       throw new BadRequestError("No meteor showers found for the given year");
     } else {
       showersByYear.map(
-        shower =>
+        (shower) =>
           (shower.image =
             meteorShowersImgs[
               Math.floor(Math.random() * meteorShowersImgs.length)

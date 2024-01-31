@@ -1,4 +1,3 @@
-const { CustomAPIError } = require("../errors");
 const { StatusCodes } = require("http-status-codes");
 const errorHandlerMiddleware = (err, req, res, next) => {
   let customError = {
@@ -7,7 +6,7 @@ const errorHandlerMiddleware = (err, req, res, next) => {
   };
   if (err.name === "ValidationError") {
     customError.message = Object.values(err.errors)
-      .map(item => item.message)
+      .map((item) => item.message)
       .join(",");
     customError.statusCode = StatusCodes.BAD_REQUEST;
   }

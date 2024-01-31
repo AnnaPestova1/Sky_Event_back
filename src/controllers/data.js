@@ -4,7 +4,7 @@ const { BadRequestError, NotFoundError } = require("../errors");
 
 const getAllData = async (req, res) => {
   const items_per_page = 12;
-  const { page, filtering } = req.query;
+  let { page, filtering } = req.query;
   if (!page) page = 1;
   const skip = (page - 1) * items_per_page;
 
