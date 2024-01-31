@@ -82,17 +82,19 @@ app.use("/api/v1/apiImg", apiNASAImg);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
-const port = process.env.PORT;
+// const port = process.env.PORT;
 
-const start = async () => {
-  try {
-    await require("../db/connect.js")(url);
-    app.listen(port, () =>
-      console.log(`Server is listening on port ${port}...`)
-    );
-  } catch (error) {
-    console.log(error);
-  }
-};
+// const start = async () => {
+//   try {
+//     await require("../db/connect.js")(url);
+//     app.listen(port, () =>
+//       console.log(`Server is listening on port ${port}...`)
+//     );
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
 
-start();
+// start();
+
+module.exports = app;

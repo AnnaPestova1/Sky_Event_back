@@ -4,13 +4,12 @@ const { BadRequestError, UnauthenticatedError } = require("../errors");
 
 const register = async (req, res) => {
   const { email, password, confirmPassword } = req.body;
-  console.log(req.body);
   if (password !== confirmPassword) {
     throw new BadRequestError("The passwords entered do not match.");
   }
   const existingUser = await User.findOne({ email });
   if (existingUser) {
-    throw new BadRequestError("Account already exists.");
+    throw new BadRequestError("Account already exists");
   }
   const user = await User.create({ ...req.body });
   const token = user.createJWT();
