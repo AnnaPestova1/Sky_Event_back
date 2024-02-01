@@ -39,6 +39,12 @@ beforeAll(async () => {
   await new Data(data).save();
 });
 
+afterAll(async () => {
+  await User.deleteOne({ email: registeredUser.email });
+  await Data.deleteMany();
+  await mongoose.disconnect();
+});
+
 //test CRUD
 test("should get data from database", async () => {
   await request(app)
