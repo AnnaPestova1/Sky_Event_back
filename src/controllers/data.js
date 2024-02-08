@@ -1,6 +1,8 @@
 const Data = require("../models/Data");
 const { StatusCodes } = require("http-status-codes");
 const { BadRequestError, NotFoundError } = require("../errors");
+const multer = require("multer");
+const sharp = require("sharp");
 
 const getAllData = async (req, res) => {
   const items_per_page = 12;
@@ -33,6 +35,7 @@ const getAllData = async (req, res) => {
 };
 
 const getData = async (req, res) => {
+  // console.log(res.body);
   const {
     user: { userId },
     params: { id: dataId }
@@ -44,6 +47,9 @@ const getData = async (req, res) => {
   if (!data) {
     throw new NotFoundError(`No job with id ${dataId}`);
   }
+  if (data.eventImage) {
+  }
+  console.log(data);
   res.status(StatusCodes.OK).json({ data });
 };
 
@@ -52,6 +58,7 @@ const createData = async (req, res) => {
     body: { event, name }
   } = req;
   req.body.createdBy = req.user.userId;
+  req.body.eventImage = req.file.buffer;
   if (event === "" || name === "") {
     throw new BadRequestError("Event or Name fields cannot be empty.");
   }
@@ -60,11 +67,22 @@ const createData = async (req, res) => {
 };
 
 const updateData = async (req, res) => {
+  // console.log(req);
+
   const {
     body: { event, name },
     user: { userId },
     params: { id: dataId }
   } = req;
+
+  if (req.file) {
+    console.log("req.file", req.file.buffer);
+    const buffer = await sharp(req.file.buffer).jpeg().toBuffer();
+    req.body.eventImage = buffer;
+    console.log("req.body", req.body);
+  }
+
+  // req.body.eventImage = req.file.filename;
   if (event === "" || name === "") {
     throw new BadRequestError("Event or Name fields cannot be empty");
   }
