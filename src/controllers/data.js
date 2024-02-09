@@ -47,9 +47,7 @@ const getData = async (req, res) => {
   if (!data) {
     throw new NotFoundError(`No job with id ${dataId}`);
   }
-  if (data.eventImage) {
-  }
-  console.log(data);
+  // console.log(data);
   res.status(StatusCodes.OK).json({ data });
 };
 
@@ -58,7 +56,7 @@ const createData = async (req, res) => {
     body: { event, name }
   } = req;
   req.body.createdBy = req.user.userId;
-  req.body.eventImage = req.file.buffer;
+  // req.body.eventImage = req.file.buffer;
   if (event === "" || name === "") {
     throw new BadRequestError("Event or Name fields cannot be empty.");
   }
@@ -67,7 +65,7 @@ const createData = async (req, res) => {
 };
 
 const updateData = async (req, res) => {
-  // console.log(req);
+  console.log(req.body);
 
   const {
     body: { event, name },
@@ -75,13 +73,24 @@ const updateData = async (req, res) => {
     params: { id: dataId }
   } = req;
 
-  if (req.file) {
-    console.log("req.file", req.file.buffer);
-    const buffer = await sharp(req.file.buffer).jpeg().toBuffer();
-    req.body.eventImage = buffer;
-    console.log("req.body", req.body);
-  }
+  // if (req.file) {
+  //   console.log("req.file", req.file.buffer);
+  //   const buffer = await sharp(req.file.buffer).jpeg().toBuffer();
+  //   req.body.eventImage = buffer;
+  //   console.log("req.body", req.body);
+  // }
+  // if (req.file) {
+  //   console.log("req.file", req.file);
+  //   // data:image/jpeg;base64,
+  //   // req.body.eventImage = req.file.filename;
+  //   // const buffer = await sharp(req.file.buffer).toString("base64");
+  //   req.body.eventImage = `data:${
+  //     req.file.mimetype
+  //   };base64,${req.file.buffer.toString("base64")}`;
+  //   // const buffer = await sharp(req.file.buffer).jpeg().toBuffer();
 
+  //   // console.log("req.body", req.body);
+  // }
   // req.body.eventImage = req.file.filename;
   if (event === "" || name === "") {
     throw new BadRequestError("Event or Name fields cannot be empty");

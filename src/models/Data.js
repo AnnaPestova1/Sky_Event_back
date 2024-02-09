@@ -31,7 +31,8 @@ const DataSchema = new mongoose.Schema(
       required: [false, "Please provide image"]
     },
     eventImage: {
-      type: Buffer,
+      type: String,
+      // type: Buffer,
       required: [false, "Please provide event image"]
     },
     createdBy: {

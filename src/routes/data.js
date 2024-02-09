@@ -10,7 +10,7 @@ const {
   deleteData
 } = require("../controllers/data");
 
-router.route("/").get(getAllData).post(upload, createData);
-router.route("/:id").get(getData).patch(upload, updateData).delete(deleteData);
+router.route("/").get(getAllData).post(createData);
+router.route("/:id").get(getData).patch(updateData).delete(deleteData);
 
 module.exports = router;
