@@ -51,7 +51,18 @@ const sessionParms = {
   cookie: { secure: false, sameSite: "strict" }
 };
 
-app.use(cors({ origin: "http://localhost:5175" }));
+app.use(
+  cors([
+    {
+      methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+      origin: "https://annapestova.onrender.com"
+    },
+    {
+      methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+      origin: "http://localhost:5175"
+    }
+  ])
+);
 app.use(
   rateLimiter({
     windowMs: 15 * 60 * 1000, //15 min
@@ -81,20 +92,5 @@ app.use("/api/v1/apiImg", apiNASAImg);
 
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
-
-// const port = process.env.PORT;
-
-// const start = async () => {
-//   try {
-//     await require("../db/connect.js")(url);
-//     app.listen(port, () =>
-//       console.log(`Server is listening on port ${port}...`)
-//     );
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-
-// start();
 
 module.exports = app;

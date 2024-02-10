@@ -34,7 +34,6 @@ test("test sign up a new user", async () => {
       email: "john@example.com",
       password: "password123",
       confirmPassword: "password123"
-      // });
     })
     .expect(201);
   const user = await User.findOne({ email: "john@example.com" });
@@ -50,7 +49,6 @@ test("returns 'Account already exists' message if user exists", async () => {
       email: registeredUser.email,
       password: registeredUser.password,
       confirmPassword: registeredUser.confirmPassword
-      // });
     })
     .then((response) => {
       expect(response.body.message).toBe("Account already exists");

@@ -1,21 +1,21 @@
 const Data = require("../models/Data");
 const { StatusCodes } = require("http-status-codes");
 const { BadRequestError, NotFoundError } = require("../errors");
-const multer = require("multer");
-const sharp = require("sharp");
 
+//get saved data from MongoDB
 const getAllData = async (req, res) => {
+  //set quantity for pagination
   const items_per_page = 12;
   let { page, filtering } = req.query;
   if (!page) page = 1;
   const skip = (page - 1) * items_per_page;
-
+  //find data created by registered user
   let data = await Data.find({ createdBy: req.user.userId });
+  //filtering data
   let filteredData = await Data.find({ createdBy: req.user.userId })
     .sort("date")
     .skip(skip)
     .limit(items_per_page);
-
   if (filtering) {
     data = await Data.find({ createdBy: req.user.userId }).where({
       event: filtering
@@ -26,16 +26,16 @@ const getAllData = async (req, res) => {
       .limit(items_per_page)
       .where({ event: filtering });
   }
-  // console.log(filteredData, filtering);
   res.status(StatusCodes.OK).json({
     data: filteredData,
     count: filteredData.length,
+    //rounded number of pages to show in pagination on Front End
     totalCount: Math.ceil(data.length / items_per_page)
   });
 };
 
+//get single data from database
 const getData = async (req, res) => {
-  // console.log(res.body);
   const {
     user: { userId },
     params: { id: dataId }
@@ -47,27 +47,21 @@ const getData = async (req, res) => {
   if (!data) {
     throw new NotFoundError(`No job with id ${dataId}`);
   }
-  // console.log(data);
   res.status(StatusCodes.OK).json({ data });
 };
 
+//create new data
 const createData = async (req, res) => {
   const {
     body: { event, name }
   } = req;
   req.body.createdBy = req.user.userId;
-  // req.body.eventImage = req.file.buffer;
+  // save user's image to database
   if (req.file) {
-    console.log("req.file", req.file);
-    // data:image/jpeg;base64,
-    // req.body.eventImage = req.file.filename;
-    // const buffer = await sharp(req.file.buffer).toString("base64");
+    //convert file to string to store in database
     req.body.eventImage = `data:${
       req.file.mimetype
     };base64,${req.file.buffer.toString("base64")}`;
-    // const buffer = await sharp(req.file.buffer).toBuffer();
-
-    // console.log("req.body", req.body);
   }
   if (event === "" || name === "") {
     throw new BadRequestError("Event or Name fields cannot be empty.");
@@ -76,35 +70,20 @@ const createData = async (req, res) => {
   res.status(StatusCodes.CREATED).json({ data });
 };
 
+//update data
 const updateData = async (req, res) => {
-  console.log(req.body);
-
   const {
     body: { event, name },
     user: { userId },
     params: { id: dataId }
   } = req;
-
-  // if (req.file) {
-  //   console.log("req.file", req.file.buffer);
-  //   const buffer = await sharp(req.file.buffer).jpeg().toBuffer();
-  //   req.body.eventImage = buffer;
-  //   console.log("req.body", req.body);
-  // }
-  console.log("req.body", req.body);
+  // save user's image to database
   if (req.file) {
-    console.log("req.file", req.file);
-    // data:image/jpeg;base64,
-    // req.body.eventImage = req.file.filename;
-    // const buffer = await sharp(req.file.buffer).toString("base64");
+    //convert file to string to store in database
     req.body.eventImage = `data:${
       req.file.mimetype
     };base64,${req.file.buffer.toString("base64")}`;
-    // const buffer = await sharp(req.file.buffer).toBuffer();
-
-    // console.log("req.body", req.body);
   }
-  // req.body.eventImage = req.file.filename;
   if (event === "" || name === "") {
     throw new BadRequestError("Event or Name fields cannot be empty");
   }
@@ -122,6 +101,7 @@ const updateData = async (req, res) => {
   res.status(StatusCodes.OK).json({ data });
 };
 
+//delete data
 const deleteData = async (req, res) => {
   const {
     user: { userId },
