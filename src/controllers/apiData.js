@@ -125,10 +125,17 @@ const getCometsData = asyncWrapper(async (req, res) => {
   }
 });
 
-//NASA API. For asteroids I choose the distance = 0.0005 au less that 1/4 distance from Earth to Moon (1 au = it is the distance from Earth to Sun, 0.002637 - distance from Earth to Moon)
+//NASA API. For asteroids I choose different distanses, because of how they are registered. For past years distance = 0.0005 au less that 1/4 distance
+// from Earth to Moon (1 au = it is the distance from Earth to Sun, 0.002637 - distance from Earth to Moon). for future years distance 0.005 au, fir current year - 0.001 au
+
 const getAsteroidsData = asyncWrapper(async (req, res) => {
   let year = Number(req.params.year) || new Date().getFullYear();
-  let maxDistance = year >= new Date().getFullYear() ? 0.005 : 0.0005;
+  let maxDistance =
+    year > new Date().getFullYear()
+      ? 0.005
+      : year < new Date().getFullYear()
+        ? 0.0005
+        : 0.001;
 
   console.log(maxDistance);
   let asteroidsData = [];
@@ -156,7 +163,6 @@ const getAsteroidsData = asyncWrapper(async (req, res) => {
         fullName = i[13].trim();
         let urlimage = `https://images-api.nasa.gov/search?q=asteroid&description=${fullName}&media_type=image`;
         try {
-          console.log(url2);
           const response2 = await fetch(url2, options);
           if (!response2) {
             throw new BadRequestError("Invalid response from sbdb api");

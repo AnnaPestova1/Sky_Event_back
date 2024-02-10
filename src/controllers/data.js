@@ -79,18 +79,19 @@ const updateData = async (req, res) => {
   //   req.body.eventImage = buffer;
   //   console.log("req.body", req.body);
   // }
-  // if (req.file) {
-  //   console.log("req.file", req.file);
-  //   // data:image/jpeg;base64,
-  //   // req.body.eventImage = req.file.filename;
-  //   // const buffer = await sharp(req.file.buffer).toString("base64");
-  //   req.body.eventImage = `data:${
-  //     req.file.mimetype
-  //   };base64,${req.file.buffer.toString("base64")}`;
-  //   // const buffer = await sharp(req.file.buffer).jpeg().toBuffer();
+  console.log("req.body", req.body);
+  if (req.file) {
+    console.log("req.file", req.file);
+    // data:image/jpeg;base64,
+    // req.body.eventImage = req.file.filename;
+    // const buffer = await sharp(req.file.buffer).toString("base64");
+    req.body.eventImage = `data:${
+      req.file.mimetype
+    };base64,${req.file.buffer.toString("base64")}`;
+    // const buffer = await sharp(req.file.buffer).toBuffer();
 
-  //   // console.log("req.body", req.body);
-  // }
+    // console.log("req.body", req.body);
+  }
   // req.body.eventImage = req.file.filename;
   if (event === "" || name === "") {
     throw new BadRequestError("Event or Name fields cannot be empty");
