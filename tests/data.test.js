@@ -8,7 +8,7 @@ const url = process.env.MONGO_URI_TEST;
 const User = require("../src/models/User");
 const Data = require("../src/models/Data");
 
-let year = new Date().getFullYear();
+let year = 2026;
 const registererUserId = new mongoose.Types.ObjectId();
 let dataId = "";
 const registeredUser = {
