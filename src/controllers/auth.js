@@ -73,7 +73,7 @@ async function getUserData(access_token, id_token) {
 const googleOauth = async (req, res) => {
   const code = req.query.code;
   try {
-    const redirectURL = process.env.REDIRECT_URI;
+    let redirectURL = process.env.REDIRECT_URI;
     const oAuth2Client = new OAuth2Client(
       process.env.CLIENT_ID,
       process.env.CLIENT_SECRET,
@@ -96,9 +96,9 @@ const googleOauth = async (req, res) => {
     //login existing user
     const googleUser = await User.findOne({ email });
     //check if user registered using login and password
-    if (googleUser.authProvider === false) {
-      throw new UnauthenticatedError("Try logging in with email and password.");
-    }
+    // if (googleUser.authProvider === false) {
+    //   throw new UnauthenticatedError("Try logging in with email and password.");
+    // }
     if (!googleUser) {
       //create new user
       const newUser = await User.create({
@@ -111,24 +111,21 @@ const googleOauth = async (req, res) => {
       const token = newUser.createJWT();
       const redirectURL = `${process.env.REDIRECT_OAUTH_URI}?name=${newUser.name}&token=${token}`;
       res.redirect(redirectURL);
-    } else {
-      if (googleUser.authProvider === false) {
-        throw new UnauthenticatedError(
-          "Try logging in with email and password."
-        );
-      }
-      const isPasswordCorrect = await googleUser.comparePassword(sub);
-      if (!isPasswordCorrect) {
-        throw new UnauthenticatedError("Invalid credentials");
-      }
-      const token = googleUser.createJWT();
-      const redirectURL = `${process.env.REDIRECT_OAUTH_URI}?name=${googleUser.name}&token=${token}`;
-      res.redirect(redirectURL);
     }
+    if (googleUser.authProvider === false) {
+      throw new UnauthenticatedError("Try logging in with email and password.");
+    }
+    const isPasswordCorrect = await googleUser.comparePassword(sub);
+    if (!isPasswordCorrect) {
+      throw new UnauthenticatedError("Invalid credentials");
+    }
+    const token = googleUser.createJWT();
+    redirectURL = `${process.env.REDIRECT_OAUTH_URI}?name=${googleUser.name}&token=${token}`;
+    res.redirect(redirectURL);
   } catch (err) {
     console.log("Error logging in with OAuth2 user", err);
-    const redirectURL = `${process.env.REDIRECT_OAUTH_URI}?error=${err}`;
-    res.redirect(redirectURL);
+    const redirectURLwithError = `${process.env.REDIRECT_OAUTH_URI}?error=${err}`;
+    res.redirect(redirectURLwithError);
   }
 };
 
