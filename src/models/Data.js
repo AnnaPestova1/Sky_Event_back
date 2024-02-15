@@ -23,8 +23,7 @@ const DataSchema = new mongoose.Schema(
     },
     description: {
       type: String,
-      required: [false, "Please provide description"],
-      maxlength: 250
+      required: [false, "Please provide description"]
     },
     image: {
       type: String,
@@ -32,7 +31,6 @@ const DataSchema = new mongoose.Schema(
     },
     eventImage: {
       type: String,
-      // type: Buffer,
       required: [false, "Please provide event image"]
     },
     createdBy: {
