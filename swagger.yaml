@@ -1,0 +1,378 @@
+openapi: 3.0.3
+info:
+  title: Sky-Events
+  contact: {}
+  version: "1.0"
+servers:
+  # - url: https://annapestova-sky-events-back.onrender.com/api/v1
+   - url: http://localhost:3000/api/v1
+    variables: {}
+paths:
+  /auth/login:
+    post:
+      tags:
+        - Auth
+      summary: login
+      operationId: login
+      parameters: []
+      requestBody:
+        description: ""
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/loginrequest"
+            example:
+              email: anna@gmail.com
+              password: secret
+        required: true
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security: []
+  /auth/register:
+    post:
+      tags:
+        - Auth
+      summary: register
+      operationId: register
+      parameters: []
+      requestBody:
+        description: ""
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/registerrequest"
+                - example:
+                    name: Alex2
+                    email: alex2@gmail.com
+                    password: secret123
+                    confirmPassword: secret123
+            example:
+              name: Alex2
+              email: alex2@gmail.com
+              password: secret123
+              confirmPassword: secret123
+        required: true
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security: []
+  /data:
+    get:
+      tags:
+        - Data
+      summary: get all data
+      operationId: getalldata
+      parameters:
+        - name: filtering
+          in: query
+          description: ""
+          required: true
+          style: form
+          explode: true
+          schema:
+            type: string
+            example: comet
+        - name: page
+          in: query
+          description: ""
+          required: true
+          style: form
+          explode: true
+          schema:
+            type: integer
+            format: int32
+            example: 1
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+    post:
+      tags:
+        - Data
+      summary: create data
+      operationId: createdata
+      parameters: []
+      requestBody:
+        description: ""
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/createdatarequest"
+            example:
+              event: comet
+              name: C/2023 A3
+              date: ""
+              description: comet Tsuchinshan-ATLAS
+              image: ""
+        required: true
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+  /data/{id}:
+    parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+        description: The data ID
+    get:
+      tags:
+        - Data
+      summary: get single data
+      operationId: getsingledata
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+    patch:
+      tags:
+        - Data
+      summary: update data
+      operationId: updatedata
+      parameters: []
+      requestBody:
+        description: ""
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/updatedatarequest"
+            example:
+              event: meteor shower
+              name: Gemenids
+              date: ""
+              description: ""
+              image: ""
+        required: true
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+    delete:
+      tags:
+        - Data
+      summary: delete data
+      operationId: deletedata
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+  /apiData/solarEclipses/{year}:
+    parameters:
+      - in: path
+        name: year
+        schema:
+          type: integer
+        required: true
+        description: year
+    get:
+      tags:
+        - SkyEvents
+      summary: get solar eclipses
+      operationId: getsolareclipses
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+  /apiData/lunarEclipses/{year}:
+    parameters:
+      - in: path
+        name: year
+        schema:
+          type: integer
+        required: true
+        description: year
+    get:
+      tags:
+        - SkyEvents
+      summary: get lunar eclipses
+      operationId: getlunareclipses
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+  /apiData/meteorShowers/{year}:
+    parameters:
+      - in: path
+        name: year
+        schema:
+          type: integer
+        required: true
+        description: year
+    get:
+      tags:
+        - SkyEvents
+      summary: meteor showers
+      operationId: meteorshowers
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+  /apiData/comets/{year}:
+    parameters:
+      - in: path
+        name: year
+        schema:
+          type: integer
+        required: true
+        description: year
+    get:
+      tags:
+        - SkyEvents
+      summary: get comets
+      operationId: getcomets
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+  /apiData/asteroids/{year}:
+    parameters:
+      - in: path
+        name: year
+        schema:
+          type: integer
+        required: true
+        description: year
+    get:
+      tags:
+        - SkyEvents
+      summary: get asteroids
+      operationId: getasteroids
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+      security:
+        - bearer: []
+  /apiImg/NASAPictureOfTheDay:
+    get:
+      tags:
+        - SkyEvents
+      summary: NASA picture of the day
+      operationId: NASApictureoftheday
+      parameters: []
+      responses:
+        "200":
+          description: ""
+          headers: {}
+      deprecated: false
+components:
+  schemas:
+    loginrequest:
+      title: loginrequest
+      required:
+        - email
+        - password
+      type: object
+      properties:
+        email:
+          type: string
+        password:
+          type: string
+    registerrequest:
+      title: registerrequest
+      required:
+        - name
+        - email
+        - password
+        - confirmPassword
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        confirmPassword:
+          type: string
+    createdatarequest:
+      title: createdatarequest
+      required:
+        - event
+        - name
+        - date
+        - description
+        - image
+      type: object
+      properties:
+        event:
+          type: string
+        name:
+          type: string
+        date:
+          type: string
+        description:
+          type: string
+        image:
+          type: string
+    updatedatarequest:
+      title: updatedatarequest
+      required:
+        - event
+        - name
+        - date
+        - description
+        - image
+      type: object
+      properties:
+        event:
+          type: string
+        name:
+          type: string
+        date:
+          type: string
+        description:
+          type: string
+        image:
+          type: string
+  securitySchemes:
+    bearer:
+      type: http
+      scheme: bearer
+security: []

@@ -26,6 +26,15 @@ const DataSchema = new mongoose.Schema(
       required: [false, "Please provide description"],
       maxlength: 250
     },
+    image: {
+      type: String,
+      required: [false, "Please provide image"]
+    },
+    eventImage: {
+      type: String,
+      // type: Buffer,
+      required: [false, "Please provide event image"]
+    },
     createdBy: {
       type: mongoose.Types.ObjectId,
       ref: "User",

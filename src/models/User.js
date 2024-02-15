@@ -8,7 +8,11 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please provide name"],
     minlength: 3,
-    maxlength: 50
+    maxlength: 50,
+    match: [
+      /^[\p{L}0-9\-' ]+$/u,
+      "Name must contain only letters, numbers, spaces or - and ' characters"
+    ]
   },
   email: {
     type: String,
@@ -22,7 +26,12 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String,
     required: [true, "Please provide password"],
-    minlength: 6
+    minlength: 8
+  },
+  authProvider: {
+    type: Boolean,
+    default: false,
+    required: false
   }
 });
 
@@ -35,7 +44,9 @@ UserSchema.methods.createJWT = function () {
   return jwt.sign(
     { userId: this._id, name: this.name },
     process.env.JWT_SECRET,
-    { expiresIn: process.env.JWT_LIFETIME }
+    {
+      expiresIn: process.env.JWT_LIFETIME
+    }
   );
 };
 
