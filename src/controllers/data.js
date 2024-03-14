@@ -96,7 +96,7 @@ const updateData = async (req, res) => {
     { new: true, runValidators: true }
   );
   if (!data) {
-    throw new NotFoundError(`No job with id ${dataId}`);
+    throw new NotFoundError(`No data with id ${dataId}`);
   }
   res.status(StatusCodes.OK).json({ data });
 };
