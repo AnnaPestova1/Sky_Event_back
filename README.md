@@ -1,9 +1,6 @@
 # The Sky Events App
 
-The Sky Events app allows users to organize the sky events data they want to observe.
-
-The Sky Events is the final project for the Code The Dream `Node.js` class.
-This is an attempt to implement Full Stack app.
+The Sky Events is the Full Stack app, allows users to organize the sky events data they want to observe.
 This is the Back End repository. The Front End repository: https://github.com/AnnaPestova1/Sky_Event_front
 
 ## Technologies
